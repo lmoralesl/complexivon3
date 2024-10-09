@@ -55,14 +55,14 @@ export const styles = StyleSheet.create({
   textRedirect: {
     marginTop: 10,
     fontWeight: "600",
-    color: "#d32f2f", // Rojo moderno para redirecciones
+    color: "#2F6BD3FF", // Rojo moderno para redirecciones
     textDecorationLine: "underline",
   },
   rootActivity: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#fbeaea", // Fondo suave en tonos rojos
+    backgroundColor: "#EAEEFBFF", // Fondo suave en tonos rojos
   },
   headerSignOut: {
     width: "100%",
@@ -102,7 +102,7 @@ export const styles = StyleSheet.create({
   },
   carCard: {
     flex: 1,
-    backgroundColor: "#b71c1c", // Rojo oscuro para las tarjetas de autos
+    backgroundColor: "#1C52B7FF", // Rojo oscuro para las tarjetas de autos
     borderRadius: 10,
     marginVertical: 5,
     padding: 15,
@@ -110,7 +110,7 @@ export const styles = StyleSheet.create({
   carTitle: {
     fontSize: 18,
     fontWeight: "bold",
-    color: "#d32f2f", // Rojo fuerte para el título del auto
+    color: "#2F6ED3FF", // Rojo fuerte para el título del auto
   },
   carInfo: {
     fontSize: 14,
@@ -126,7 +126,7 @@ export const styles = StyleSheet.create({
     margin: 16,
     right: 0,
     bottom: 0,
-    backgroundColor: '#e53935', // Rojo vivo para el botón flotante
+    backgroundColor: '#3573E5FF', // Rojo vivo para el botón flotante
   },
   rootInputCar: {
     flexDirection: 'row',
@@ -140,7 +140,7 @@ export const styles = StyleSheet.create({
     marginRight: 5,
   },
   buttonNewCar: {
-    backgroundColor: "#d32f2f", // Rojo fuerte para agregar autos
+    backgroundColor: "#2F58D3FF", // Rojo fuerte para agregar autos
     width: "100%",
     borderRadius: 14,
     marginVertical: 9,
@@ -149,7 +149,7 @@ export const styles = StyleSheet.create({
   rootDetail: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#fbeaea", // Fondo suave en tonos rojos
+    backgroundColor: "#EAEEFBFF", // Fondo suave en tonos rojos
     gap: 20,
   },
   inputContainer: {

@@ -131,7 +131,7 @@ export const RegisterScreen = () => {
           navigation.dispatch(CommonActions.navigate({ name: "Login" }))
         }
       >
-        Si ya tienes una cuenta? Inicia Sesion Ahora!
+        Inicia ahora si ya estas Registrado!
       </Text>
 
       <Snackbar

@@ -65,7 +65,7 @@ export const DetailCarScreen = () => {
       });
       setShowMessage({
         visible: true,
-        message: "Carro Actualizado Correctamente",
+        message: "Auto Actualizado Correctamente",
         color: "#109048",
       });
       setTimeout(() => {
@@ -75,7 +75,7 @@ export const DetailCarScreen = () => {
       console.log(e);
       setShowMessage({
         visible: true,
-        message: "Carro no se pudo Actualizar",
+        message: "Auto no se pudo Actualizar",
         color: "#FF0000",
       });
     }
@@ -88,7 +88,7 @@ export const DetailCarScreen = () => {
       await remove(dbRef); // Eliminar el carro de la base de datos
       setShowMessage({
         visible: true,
-        message: "Carro Eliminado Correctamente",
+        message: "Auto Eliminado Correctamente",
         color: "#109048",
       });
 
@@ -100,7 +100,7 @@ export const DetailCarScreen = () => {
       console.log(e);
       setShowMessage({
         visible: true,
-        message: "No se pudo Eliminar el Carro",
+        message: "No se pudo Eliminar el Auto",
         color: "#FF0000",
       });
     }
@@ -110,7 +110,7 @@ export const DetailCarScreen = () => {
     <>
       <View style={styles.rootDetail}>
         <Text style={styles.bookListTitle} variant="bodyLarge">
-          Detalles del Carro
+          Detalles del Auto
         </Text>
         <View>
           <Text variant="bodyLarge">Modelo:</Text>
@@ -160,7 +160,7 @@ export const DetailCarScreen = () => {
             onPress={handleUpdateCar}
             style={[styles.buttonEditCar, { backgroundColor: "#4f63d2" }]}
           >
-            Actualizar Carro
+             Actualizar Auto
           </Button>
           <Button
             icon="delete"
@@ -168,7 +168,7 @@ export const DetailCarScreen = () => {
             onPress={handleDeleteCar} // Llamar a la función de eliminar
             style={[styles.buttonEditCar, { backgroundColor: "#FF0000" }]}
           >
-            Eliminar Carro
+            Eliminar Auto
           </Button>
         </View>
       </View>
